@@ -1,0 +1,24 @@
+{
+  "name": "sol-sentry",
+  "version": "1.0.0",
+  "description": "AI-powered Solana wallet guardian - monitors transactions, detects threats, and generates security reports",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "demo": "tsx src/demo.ts"
+  },
+  "keywords": ["solana", "ai", "security", "wallet", "guardian", "agent"],
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.0.0"
+  }
+}
